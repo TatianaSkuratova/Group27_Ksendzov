@@ -1,5 +1,4 @@
-fdsfsdf
-sdfsdfds
+conflict lines
 sdfsf
 new line1
 line 5

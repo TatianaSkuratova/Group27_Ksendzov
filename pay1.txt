@@ -1,4 +1,6 @@
+
 conflict1
+conflict lines
 sdfsf
 new line1
 line 5

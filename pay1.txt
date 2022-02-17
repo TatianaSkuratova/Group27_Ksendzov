@@ -4,3 +4,6 @@ conflict lines
 sdfsf
 new line1
 line 5
+dfsdfds
+fsdfds
+new branch line

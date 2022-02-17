@@ -1,0 +1,31 @@
+1) Посмотреть где я -- pwd
+2) Создать папку -- mkdir homework_bash
+3) Зайти в папку -- cd homework_bash/
+4) Создать 3 папки -- mkdir subdir1 subdir2 subdir3 или  mkdir subdir{1,2,3}
+5) Зайти в любоую папку -- cd subdir1/
+6) Создать 5 файлов (3 txt, 2 json) -- touch fil1.txt fil2.txt fil3.txt filjson1.json filjson2.json
+7) Создать 3 папки -- mkdir subdir1_1 subdir1_2 subdir1_3
+8. Вывести список содержимого папки  -- ls -la
+9) + Открыть любой txt файл -- vim fil1.txt
+10) + написать туда что-нибудь, любой текст. -- :i , написать 'hello world'
+11) + сохранить и выйти. -- нажать esc, :wq
+12) Выйти из папки на уровень выше -- cd ..
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. -- mv fil1.txt ../subdir2 ,  mv fil2.txt subdir1_1/fil_new2.txt
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. - cp filjson1.json subdir1_1/ , cp filjson2.json subdir1_2/
+15) Найти файл по имени -- find . -iname "*.json"
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. -- echo  "hello, padawans! How are you?" >> file0.txt , 
+grep -i padawans file0.txt, в реальном времени:  sudo tail -f jmeter.log 
+17) вывести несколько первых строк из текстового файла -- head -2 file0.txt
+18) вывести несколько последних строк из текстового файла -- tail -3 file0.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. -- less file0.txt
+20) вывести дату и время - date
+=========
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000 -- 
+    curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
+    curl "http://162.55.220.72:5005/terminal-hw-request"
+    curl "http://162.55.220.72:5005/get_method?name=SkuratovaTatiana&age=34"
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+    см. файл homework_bash.sh

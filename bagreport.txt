@@ -2,7 +2,7 @@
     "summary": "Login page: button SignIn is inactive after entering valid data",
     "descritpion" :"1. Open Login page. 2. Enter valid username and password.",
     "actual_result" : "button SignIn is active",
-    "expected_result": "button SignIn is active",
+    "expected_result": "button SignIn is inactive",
     "priority" : "High",
     "enviroment": "Windows 10, Google Chrome Версия 98.0.4758.80 (Официальная сборка), (x86_64)",
     "severity" : "Critical",

@@ -915,7 +915,7 @@
 							"{'name':name,",
 							"  'age': int(age),",
 							"  'salary': [salary, str(salary*2), str(salary*3)]}",
-							"4) проверить, что 2-й элемент массива salary больше 1-го и 0-го",
+							"",
 							"===================",
 							"*/",
 							"//1) Статус код 200",
@@ -959,7 +959,17 @@
 							"});",
 							"pm.test(\"Test double salary\", function () {",
 							"    pm.expect(jsonData.salary[0]*3).equal(parseInt(jsonData.salary[2]));",
-							"});"
+							"});",
+							"",
+							"//4) проверить, что 2-й элемент массива salary больше 1-го и 0-го",
+							"",
+							"pm.test(\"Second element is bigger than first\",function(){",
+							"    pm.expect(jsonData.salary[2]>jsonData.salary[1]).to.be.true",
+							"})",
+							"",
+							"pm.test(\"Second element is bigger than zero\",function(){",
+							"     pm.expect(jsonData.salary[2]>jsonData.salary[0]).to.be.true",
+							"})"
 						],
 						"type": "text/javascript"
 					}

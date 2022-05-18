@@ -78,3 +78,15 @@ select * from students where password in ('12333', '1m313', '123313');
 select * from students where created_on in ('2020-10-03 00:00:00' , '2021-05-19 00:00:00','2021-03-26 00:00:00');
 select min(id) from students;
 select max(id) from students;
+
+/*
+ * 30. Вывести количество пользователей
+ 31. Вывести id пользователя, имя, дату создания пользователя. 
+ 	Отсортировать по порядку возрастания даты добавления пользоватлеля.
+ 32. Вывести id пользователя, имя, дату создания пользователя. 
+ 	Отсортировать по порядку убывания даты добавления пользоватлеля.
+ */
+
+select count (id) from students;
+select id, name, created_on from students order by created_on ;
+select id, name, created_on from students order by created_on desc;

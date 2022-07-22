@@ -8,9 +8,9 @@ Github readme
 <h3 align="left">Connect with me:</h3>
 <a href="mailto:skuratovats@gmail.com" target="_blank"><img align="center" alt="Tatiana Skuratova" height="65" 
 src="https://img.icons8.com/color/344/gmail-login.png" width="65"/></a>
-<a href="www.linkedin.com/in/tatianaskuratova" target="blank"><img align="center" alt="Tatiana Skuratova LinkedIn" height="65" 
-src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="65"/></a>
-<a href="https://telegram.com/skuratova/" target="blank"><img align="center" alt="skrtva" height="50"
+<a href="https://www.linkedin.com/in/tatianaskuratova/" target="blank"><img align="center" alt="Tatiana Skuratova LinkedIn" height="65" 
+src="https://img.icons8.com/fluency/344/linkedin.png" width="65"/></a>
+<a href="https://t.me/skuratova" target="blank"><img align="center" alt="Skuratova" height="50"
 src="https://user-images.githubusercontent.com/98715632/180439335-dbfacae5-cf35-44d7-8b12-cc43b2bfccfa.png" width="50"/></a><a target="_blank"/></a>
 
 ### Languages and Tools: ###
@@ -24,7 +24,7 @@ src="https://user-images.githubusercontent.com/98715632/180439335-dbfacae5-cf35-
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="50" height="50"/> </a> </p>
 
 
-![skrtva](https://github-readme-stats.vercel.app/api/top-langs/?username=amtrsv&layout=compact&theme=onedark)
+![skrtva](https://github-readme-stats.vercel.app/api/top-langs/?username=ta&layout=compact&theme=onedark)
 
 
 ## Character

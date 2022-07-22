@@ -10,8 +10,6 @@ Github readme
 src="https://img.icons8.com/color/344/gmail-login.png" width="65"/></a>
 <a href="www.linkedin.com/in/tatianaskuratova" target="blank"><img align="center" alt="Tatiana Skuratova LinkedIn" height="65" 
 src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="65"/></a>
-<a href="https://www.instagram.com/skuratova/" target="blank"><img align="center" alt="Skuratova Instagram" height="65" 
-src="https://img.icons8.com/plasticine/100/000000/instagram-new--v1.png" width="65"/></a>
 <a href="https://telegram.com/skuratova/" target="blank"><img align="center" alt="skrtva" height="50"
 src="https://user-images.githubusercontent.com/98715632/180439335-dbfacae5-cf35-44d7-8b12-cc43b2bfccfa.png" width="50"/></a><a target="_blank"/></a>
 
